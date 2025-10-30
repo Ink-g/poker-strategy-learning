@@ -1,0 +1,18 @@
+# Python cache & env
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data & models (keep .gitkeep)
+data/**
+!data/**/.gitkeep
+models/**
+!models/**/.gitkeep
+experiments/**
+!experiments/**/.gitkeep
+
+
+# Logs & misc
+*.log
+runs/
